@@ -1,0 +1,18 @@
+*{
+  /* margin:0px;
+  padding: 0px; */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body{
+ height:120vh;
+ width:100%; 
+ font-family: "AMitra";
+  
+  
+}
+.yellow-card{
+  background-color: #FFE664;
+  height:80px;
+  width:100%;
+}

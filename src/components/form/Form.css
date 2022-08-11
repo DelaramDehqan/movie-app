@@ -1,0 +1,109 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  padding: 40px 50px 67px 100px;
+  text-align: right;
+  background-color: #515050;
+  color: white;
+  font-family: "AMitra";
+}
+input,
+textarea,
+select {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px 5px;
+  outline: none;
+  background-color: inherit;
+  border: 1px solid rgb(153, 146, 146);
+  color: white;
+  text-align: right;
+  margin-top: 10px;
+  font-family: "AMitra";
+}
+input,
+select {
+  width: 80%;
+  height: 45%;
+}
+
+.inputWrapper {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  direction: rtl;
+  width: 50%;
+  gap: 40px 40px;
+}
+
+.des-btn {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.labli{
+  margin-left: 470px;
+}
+textarea {
+  width: 70%;
+  height: 40%;
+  margin-left: 150px;
+
+}
+.btn-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+  justify-content: start;
+  margin-left: 150px;
+}
+button {
+  margin-right: 5px;
+  width: 15%;
+  border-radius: 5px;
+  background-color: inherit;
+  color: rgb(160, 149, 149);
+  border: 1px solid rgb(160, 149, 149);
+  padding: 5px 0;
+  cursor: pointer;
+  font-family: "AMitra";
+  font-weight: bold;
+}
+button:focus {
+  background-color: #F6C90E;
+  border: none;
+}
+textarea,
+input::placeholder {
+  text-align: right;
+  font-size: 0.75rem;
+  color: rgb(160, 149, 149);
+}
+textarea:focus {
+  border: 2px solid #F6C90E;
+}
+input:focus {
+  border: 2px solid #F6C90E;
+}
+select:focus {
+  border: 2px solid #F6C90E;
+}
+.lable-wrapper {
+  display: flex;
+  gap: 5px;
+  padding-top: 10px;
+}
+
+.lable-wrapper .icon {
+  background-color: #F6C90E;
+  width: 6px;
+  height: 18px;
+  border-radius: 1px;
+  margin-top: 5px;
+}
+select option {
+  background-color: rgb(63, 53, 53);
+}
